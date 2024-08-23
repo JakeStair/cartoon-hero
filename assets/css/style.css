@@ -5,6 +5,7 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
+/* header styles */
 header{
     background-color: lightcoral;
     text-align: center;
@@ -25,6 +26,7 @@ header img{
     border-radius: 50px;
     width: 600px;
     border: 20px solid lightblue;
+    box-shadow: 3px 2px 4px red;
 }
 
 main{
