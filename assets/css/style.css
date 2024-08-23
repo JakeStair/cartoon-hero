@@ -1,24 +1,81 @@
 body{
-    background-color: aliceblue;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Helvetica, sans-serif;
 }
 
-h1{
-    font-size: 30px;
-    color: #8FBD8A;
+header{
+    background-color: lightcoral;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-h2{
-    font-size: 20px;
-    color: #9790b6;
+
+h1, h2{
+    font-family: "Matemasie", sans-serif;
+    font-size: 50px;
 }
-.big{
-    font-size: 60px;
-}
-.uppercase{
-    text-transform: uppercase;
-}
-.big.uppercase{
+
+header h1{
     color: antiquewhite;
 }
-h1 span{
-    color: blue;
+
+header img{
+    border-radius: 50px;
+    width: 600px;
+    border: 20px solid lightblue;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 35px;
+    color: lightcoral;
+    margin: 40px 0 10px;
+}
+
+a{
+    color: lightcoral;
+}
+
+a:hover{
+    color: black;
+    background-color: lightcoral;
+}
+
+footer{
+    background-color: lightcoral;
+    text-align: center;
+    color: white;
+}
+
+footer a{
+    color:white;
+}
+
+footer a:hover{
+    color:black;
+    background-color: aqua;
+    padding: 50px;
+}
+
+footer p{
+    margin: 0;
+    height: 50px;
+    padding-top: 10px;
+}
+
+p.caption{
+    color:darkred;
+    font-style: italic;
+    margin-top: 0px;
 }
